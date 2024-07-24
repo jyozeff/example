@@ -1,0 +1,26 @@
+$primary: #5f37c4;
+$primaryLight: #8d6edb;
+$primaryExtraLight: #e7e1f5;
+$success: #28a745;
+$error: #ff8080;
+$blank: #f3f3f3;
+$gray: rgb(228, 228, 228);
+$fontSizeRegular: 17px;
+$fontSizeTitle: 40px;
+$fontSizeTitleLarge: 60px;
+$textGray: #737373;
+
+$breakpoint-desktop: 1025px;
+
+:export {
+  primary: $primary;
+  primaryLight: $primaryLight;
+  primaryExtraLight: $primaryExtraLight;
+  success: $success;
+  error: $error;
+  blank: $blank;
+  fontSizeRegular: $fontSizeRegular;
+  fontSizeTitle: $fontSizeTitle;
+  fontSizeTitleLarge: $fontSizeTitleLarge;
+  textGray: $textGray;
+}

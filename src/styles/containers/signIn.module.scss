@@ -1,0 +1,29 @@
+@use '../common/variables.module' as variables;
+@use '../common/general.module' as general;
+
+.container {
+  @include general.flex-col-1;
+  padding: 15px 0;
+  align-items: center;
+}
+
+.container2 {
+  @include general.flex-col-1;
+  align-items: center;
+  width: 250px;
+
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  .error {
+    color: variables.$error;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+@use '../common/variables.module' as variables;
+
+.table {
+  margin-top: 40px;
+  width: 100%;
+  padding: 30px;
+}
+
+.tableHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+}

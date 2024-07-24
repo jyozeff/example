@@ -1,0 +1,32 @@
+.table {
+  // border: 1px solid;
+  // border-color: #e3e5e8;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cell {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.row:hover {
+  background-color: #d6eeee;
+}
+
+.placeHolder {
+  height: 300px;
+  width: 100%;
+}
+
+.placeHolder_colored {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}

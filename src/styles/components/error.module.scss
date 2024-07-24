@@ -1,0 +1,13 @@
+@use '../common/variables.module' as variables;
+
+.container {
+  background-color: variables.$error;
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

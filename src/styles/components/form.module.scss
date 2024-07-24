@@ -1,0 +1,21 @@
+@use '../common/variables.module' as variables;
+
+.header {
+  color: variables.$primary;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+  color: variables.$primary;
+}
+
+.filler {
+  height: 200px;
+}
